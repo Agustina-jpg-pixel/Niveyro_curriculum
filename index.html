@@ -1,26 +1,27 @@
-<DOCTYPE html>
+<DOCTYPE html> <!-- Asi no se escribe el doctype -->
     <html>
 <head>
             <meta charset="utf-8"/>
             <link href="estilos.css" rel="stylesheet" type="text/css">
             <title>Agustina Niveyro CV</title>
-            
+            <!-- Falta cerrar la etiqueta head -->
 
-                
+                <!-- Falta abrir la etiqueta header y ponerle contenido -->
                 </header>
                 
-                    <main>
+                    <main> <!-- No deberia haber mas de un main en el archivo  -->
 
     
                         
-                    
+                    <!-- Falta abrir la etiqueta section y ponerle contenido -->
                     </section>
                         
-                        
+                        <!-- Esta Img esta colgada dentro de main, le falta el ancho, y si queres que vaya por detras del resto del contenido, quiza necesitas que sea un background? Revisa los apuntes de css -->
                         <img src="img/banner.jpg"  height="400px" alt="apertura">
                     
                     
                     </main>
+            <!-- Falta abrir la etiqueta body -->
             </body>
             <header>
                 <nav>
@@ -39,7 +40,7 @@
                             trabajos principalmente en diseño editorial e identidad visual</p>
                         </article>
                 </section>
-                <h3>Educación</h3>
+                <h3>Educación</h3><!-- Estos titulos te quedaron al mismo peso que el "Sobre Mi", decidí cual es mas importante y usa h2 o h3, no debería haber un h3 sin un h2 antes -->
                 <ul>
                     
                 
@@ -47,7 +48,7 @@
                 <li> Bachillerato en Ciencias Sociales </li> 
                 </ul>
                 
-            </section>
+            </section> <!-- Falta abrir esta etiqueta section -->
                 <h3>Cursos</h3>
                 <ul>
                     <li>Tecnicas de Diseño Gráfico 1</li>
@@ -56,17 +57,17 @@
                 
                 
                 
-            </section>
+            </section> <!-- Falta abrir la etiqueta section -->
                 <h3>Idiomas</h3>
                 <ul>
                     <li>Español Nativo</li>
                     <li>Inglés Básico</li>
                 </ul>
                 </section>
-                <h3>Software</h3>
-                <nav>
+                <h3>Software</h3> <!-- Esto esta fuera de todas las sections, por el cierre de la linea anterior, es a proposito? -->
+                <nav> <!-- No se usa nav para otra cosa que no sea navegación de la pagina -->
                     <ul> 
-                        <li>Adobe Ilustrator</li> <strong>Intermedio</strong>
+                        <li>Adobe Ilustrator</li> <strong>Intermedio</strong> <!-- No se diseña en html, si queres que sea bold, hacelo desde css, podes combinar con <span> -->
                         <li>Adobe Photoshop</li> <strong>Intermedio</strong> 
                         <li>Adobe Indesing</li> <strong>Intermedio</strong> 
                         <li> Paquete office</li> <strong>Básico</strong>
@@ -75,27 +76,30 @@
                 </section>
             
                 
-                </nav>
+                </nav> <!-- Este Nav nunca se abre -->
             </section>
             <h3>Mis proyectos</h3>
-            <nav>
-                <ul>
+            <nav> <!-- Otro nav que no deberia ir, que hace acá? -->
+                <ul> <!-- UL para mostrar un solo elemento? Algo aca no está bien semanticamente -->
                     <li>Diseño Editorial</li>
                     </ul>
                     
                     <img src="img/apertura 1.jpg" alt="Cosas que amo-Maria Luque" width="130px" height="130px">
-            
+
+                    <!-- Los nombres de los archivos tienen que ser descriptivos-->
                     <img src="img/fgnfgfhhh.png" alt="Cronograma" width="130px" height="130px">
-                            <li>Diseño de latas</li>
-                            </ul>
-                        </section>
+                            <li>Diseño de latas</li><!-- li fuera de una lista no funciona como queremmos -->
+                            </ul><!-- Falta abrir la etiqueta ul -->
+                        </section> <!-- Falta abrir la etiqueta section -->
+                                <!-- Ojo con las rutas de los archivos, esta está rota en la página publicada -->
                                 <img src="c:\Users\Agustina\Downloads\iloveimg-compressed (3)\latas.png" alt="Latas" width="130px" height="130px">
                     </nav>
                         
                 </main>
-                <footer>
+                <footer> 
                     <p>&copy; 2024 Agustina</p>
+                <!-- Falta cerrar el footer -->
                     
                     
-</body>
+</body> <!-- Nunca abriste este body antes, deberia abrirse despues del head -->
 </html>
