@@ -1,14 +1,57 @@
-h1 {
-    color: fuchsia;
-    font-family:
-}
-h3 {
-    color:turquoise;
-}
-strong {
-    color:blue
-}
-h3 {
-    text-decoration: underline;
+@charset "utf-8!;"
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url("https://use.typekit.net/ovh1rje.css");
+
+
+
+
+
+.nav-botonera {
+	width: 100%;
+	height: 65px;
+	background-color:#545ff5;
+	display: flex; 
+	align-items: center;
+	justify-content: space-between;
+	z-index: 50;
 }
 
+
+.botonera a{
+    text-decoration: none;
+	color: #ffffff;
+	font-family:"flower-power", sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	margin: 35px;
+	transition: 0.2s;
+	padding: 8px 12px 8px 12px;
+	border-radius: 9px;
+}
+.botonera a:hover {
+    color: #582afe;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+
+
+h1   {
+    font-family:"flower-power", sans-serif;
+	
+    
+}
+
+
+.banner {
+    background-image: url(img/banner.jpg);
+	padding:5px
+    
+	
+}
+
+.logo {
+	width: 40;
+	height: 50;
+}
