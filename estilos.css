@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 @import url("https://use.typekit.net/ovh1rje.css");
-
+/* guarda con el indentado del archivo */
 *{margin:0;
 	padding:0;
 	box-sizing: border-box;
@@ -15,15 +15,15 @@ body {
 	color:#ffffff;
 	display:flex;
 	flex-direction:column;
-	justify-content:center;
+	justify-content:center; /* no está haciendo nada */
 	align-items:center;
 }
 
 header,header ul {
 	display: flex;
-flex-direction: row;
-background-color:#545ff5;
-justify-content: space-between;
+flex-direction: row; /* no hace falta */
+background-color:#545ff5; /* esto no afecta en nada, está tomando el color de body */
+justify-content: space-between; /* no hace falta */
 align-items: center;
 padding: 10px;
 
@@ -31,31 +31,31 @@ padding: 10px;
 
 
 .nav-botonera {
-	width: 100%;
-	height: 65px;
-	display: flex; 
-	align-items: center;
-	justify-content: end;
+	width: 100%; /* guarda que acá el 100% es en relación al padre y si querés lograr que ocupe toda la pantalla deberías aplicarle al header tambmién */
+	height: 65px; /* no hace nada */
+	display: flex; /* no hace nada */ 
+	align-items: center; /* no hace nada */
+	justify-content: end; /* no hace nada */
 		
 }
 
 
 .botonera a{
-    text-decoration: none;
+    text-decoration: none; /* esto ya está definido en la línea 6, no repitas */
 	color: #ffffff;
 	font-family:"flower-power", sans-serif;
 	font-size: 18px;
 	font-weight: 700;
-	margin: 35px;
+	margin: 35px; /* esto es mejor manejarlo con gap desde el padre, o sea en la botonera */
 	transition: 0.2s;
-	padding: 8px 12px 8px 12px;
+	padding: 8px 12px 8px 12px; /* si dejás solo 8px y 12px toma automáticamente los otros dos porque queda 8 para top y bottom y 12 para left y right */
 	border-radius: 9px;
 	
 }
 .botonera a:hover {
     color: #582afe;
     background-color: #ffffff;
-    border-radius: 15px;
+    border-radius: 15px; 
 }
 
 #presentacion {
@@ -63,8 +63,7 @@ padding: 10px;
 	align-items:center;
 	justify-content: center;
 	flex-direction: column;
-	padding:10%;
-	
+	padding:10%; /* no se centra con padding!! si querés agrandar la sección capaz con un vh va mejor, y si no querés tener el nombre tan largo podés aplicarle al h1 un max-width */
 }
 
 h1   {
@@ -91,11 +90,11 @@ width: 100%;
 
 #acercademi {
 	display:flex;
-	flex-direction:row;
-	justify-content: center;
+	flex-direction:row; /* no hace falta */
+	justify-content: center; /* no hace falta */
 	align-items: center;
-	padding:10%;
-	width: 100%;
+	padding:10%; /* no centrar con padding */
+	width: 100%; /* no hace falta */
 	
 }
 
@@ -107,7 +106,7 @@ width: 100%;
 
 #presentacion h3 {
 	padding:10%;
-	margin-top:10px;
+	margin-top:10px; /* con un padding tan grande no sé si hace falta tener un margin, también fijate que caja tiene lo mismo, podrías unificarlos */
 }
 
 
