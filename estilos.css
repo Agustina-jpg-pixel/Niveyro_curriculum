@@ -50,6 +50,7 @@ padding: 10px;
 	transition: 0.2s;
 	padding: 8px 12px 8px 12px;
 	border-radius: 9px;
+	
 }
 .botonera a:hover {
     color: #582afe;
@@ -63,6 +64,7 @@ padding: 10px;
 	justify-content: center;
 	flex-direction: column;
 	padding:10%;
+	
 }
 
 h1   {
@@ -106,4 +108,10 @@ width: 100%;
 #presentacion h3 {
 	padding:10%;
 	margin-top:10px;
+}
+
+
+.logo {
+	display:flex;
+	margin-left: 30px;
 }
