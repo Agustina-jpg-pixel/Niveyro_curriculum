@@ -1,4 +1,4 @@
-@charset "utf-8!;"
+@charset "utf-8!;";
 
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 @import url("https://use.typekit.net/ovh1rje.css");
@@ -50,11 +50,17 @@ header {
 	border-radius: 15px;
 }
 
+/*hasta aca header*/
+
+/*desde aca main*/
+
 #presentacion {
 	display: flex;
 	align-items: center;
 	height: 100vh;
 	flex-direction:column;
+	justify-content: center;
+	width: 100%;
 }
 	
 
@@ -67,7 +73,7 @@ h1 {
 
 section [id] {
 	display: flex;
-	justify-content: center;
+	justify-content:space-between;
 	align-items: center;
 	width: 100px;
 	height: 100px;
@@ -85,6 +91,7 @@ section [id] {
 	font-size: 50px;
 	padding:50px;
 }
+		
 
 
 #educacion {
@@ -102,25 +109,24 @@ section [id] {
 }
 
 
-@keyframes cambioColor {
-	0% {
-		background-color: #7349de;
-	}
+0% {
+	background-color: #7349de;
+}
 
-	50% {
-		background-color: #f751ce;
-	}
+50% {
+	background-color: #f751ce;
+}
 
-	100% {
-		background-color: #aa98ce;
-	}
+100% {
+	background-color: #aa98ce;
+}
 }
 
 .animacion-fondo {
-	width: 100vw;
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	animation: cambioColor 3s infinite;
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+animation: cambioColor 3s infinite;
 }
