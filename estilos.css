@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 @import url("https://use.typekit.net/ovh1rje.css");
 
-/*resolucion de pantalla: 1360x768*/
+
 * {
 	margin: 0;
 	padding: 0;
@@ -27,7 +27,7 @@ header {
 
 }
 
-/* hasta aca ok*/
+
 
 .botonera {
 	align-items: center;
@@ -96,7 +96,7 @@ h1 {
 	}
 }
 
-/*hasta aca ok*/
+
 
 
 #acercademi {
