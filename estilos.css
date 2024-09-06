@@ -9,7 +9,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	text-decoration: none;
-	cursor:url(img/cursor.svg),auto;
+	cursor: url(img/cursor.svg), auto;
 }
 
 body {
@@ -19,12 +19,12 @@ body {
 	flex-direction: column;
 	font-family: "itim";
 	box-sizing: border-box;
-	
+
 }
 
 header {
 	width: 100%;
-	
+
 }
 
 /* hasta aca ok*/
@@ -67,7 +67,7 @@ section [id] {
 	display: flex;
 	align-items: center;
 	height: 100vh;
-	flex-direction:column;
+	flex-direction: column;
 	justify-content: center;
 	width: 100%;
 	animation: cambiodecolor 3s infinite;
@@ -83,36 +83,40 @@ h1 {
 
 @keyframes cambiodecolor {
 	0% {
-    background-color: #545FF5;
-	
+		background-color: #545FF5;
+
 	}
-	
+
 	50% {
 		background-color: #7f5ce1;
 	}
-	
+
 	100% {
 		background-color: #aa98ce;
 	}
-	}
-	
+}
+
 /*hasta aca ok*/
 
 
 #acercademi {
-	display:flex;
+	display: flex;
 	padding: 50px;
-	gap:70px;
-	align-items:center ;
-	max-width: 1100px;
+	gap: 70px;
+	align-items: center;
+	height: 100vh;
+
 
 }
 
-footer {
-	background-color: #2d0d3f;
-	padding: 20px;
-	font-size: 10px;
+#CONTACTO{
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding:20px;
 }
+
+
 
 h3 {
 	font-size: 40px;
@@ -121,95 +125,98 @@ h3 {
 
 
 #acercademi img {
-		width: 400px;
-		border-radius: 50px;
-		margin-left: 100px;
-		border: 3px solid #774df4;
-		
-	}
-	
-
-	.ojo {
-		display:flex;
-		justify-content: center;
-	}
-	
-	.ojo img {
-		width: 100px;
-		height: 100px;
-		animation: spin 3s linear infinite;
-
-		
-	}
-	@keyframes spin {
-		from {
-			transform: rotate(0deg);
-		}
-		to {
-			transform: rotate(360deg);
-		}
-	}
-
-	#educación {
-		display: flex;
-	column-gap: 20px; 
-	padding: 30px;
-	justify-content:space-evenly;
-	background-color: #2d0d3f;
-	font-size: 20px;
+	border-radius: 50px;
+	margin-left: 100px;
+	border: 3px solid #774df4;
 
 }
 
-	.habilidades{
-		display: flex;
-		Flex-direction: column;
-		gap:10px;
-		justify-content:baseline;
-		background-color: #2d0d3f;
-		font-size: 20px;
-		max-width: 400px;
-		
+#acercademi:hover img {
+	transform: scale(1.1);
+}
+
+.ojo {
+	display: flex;
+	justify-content: center;
+}
+
+.ojo img {
+	width: 100px;
+	height: 100px;
+	animation: spin 3s linear infinite;
+
+
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
 	}
 
-	.habilidades h4{
-		margin-top:20px;
+	to {
+		transform: rotate(360deg);
 	}
-	
+}
+
+#educación {
+	display: flex;
+	column-gap: 80px;
+	padding: 30px;
+	justify-content:center;
+	background-color: #2d0d3f;
+
+
+}
+.habilidades {
+	display: flex;
+	Flex-direction: column;
+	gap: 10px;
+	font-size: 20px;
+	max-width: 400px;
+
+}
+
+.habilidades h4 {
+	margin-top: 20px;
+}
+
 
 #proyectosdestacados {
-background-color: #774df4;
-padding:30px;
-display:flex;
-flex-direction: column;
-align-items: center;
-gap:50px;
+	background-color: #774df4;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 50px;
 }
 
 
-#proyectosdestacados h2{
+#proyectosdestacados h2 {
 	font-size: 50px;
 }
+
 .proyectos {
-	gap:50px;
-	display:flex;
+	gap: 50px;
+	display: flex;
 	justify-content: space-around;
-	
-	
+
+
 }
 
 
-.aside-redes {
-    position: fixed;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-    background-color: #545FF5;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    z-index: 70px;
+.redes {
+	position: fixed;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+	background-color: #545FF5;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	z-index: 70px;
 	border-radius: 50px;
+	
 }
 
 .aside-redes a {
@@ -221,11 +228,23 @@ gap:50px;
 	height: 50px;
 }
 
+.icon:hover  {
+	transform: scale(1.1);
+}
+
 
 .cajatexto {
-display:flex;
-align-items:flex-start;
-flex-direction: column;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
 
 }
 
+p {
+	max-width: 500px;
+	
+}
+
+.proyectos iframe:hover {
+	transform: scale(1.1);
+}
