@@ -109,11 +109,11 @@ h1 {
 
 }
 
-#CONTACTO{
-display: flex;
-align-items: center;
-justify-content: space-around;
-padding:20px;
+#CONTACTO {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 20px;
 }
 
 
@@ -162,11 +162,12 @@ h3 {
 	display: flex;
 	column-gap: 80px;
 	padding: 30px;
-	justify-content:center;
+	justify-content: center;
 	background-color: #2d0d3f;
 
 
 }
+
 .habilidades {
 	display: flex;
 	Flex-direction: column;
@@ -216,7 +217,7 @@ h3 {
 	align-items: center;
 	z-index: 70px;
 	border-radius: 50px;
-	
+
 }
 
 .aside-redes a {
@@ -228,7 +229,7 @@ h3 {
 	height: 50px;
 }
 
-.icon:hover  {
+.icon:hover {
 	transform: scale(1.1);
 }
 
@@ -242,7 +243,7 @@ h3 {
 
 p {
 	max-width: 500px;
-	
+
 }
 
 .proyectos iframe:hover {
